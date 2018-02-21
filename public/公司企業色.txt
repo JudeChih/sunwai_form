@@ -1,0 +1,10 @@
+ÂÅ::#08aaf1
+ÂÅº¥¼h::background-image: linear-gradient(to bottom,#0480b6 0, #08aaf1 100%);
+
+¾ï::#d96c40
+¾ïº¥¼h::background-image: linear-gradient(to bottom,#e88042 0, #d96c40 100%);
+
+¶Â::#222222
+¶Âº¥¼h::background-image: linear-gradient(to bottom,#3c3c3c 0, #222222 100%);
+
+¥Õ::#ffffff

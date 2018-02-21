@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/* line 27, ../sass/style.scss */
+body {
+  font-family: 'Noto Sans TC','Josefin Sans', sans-serif;
+}
+/* line 29, ../sass/style.scss */
+body .j_form_style {
+  box-shadow: 0px 0px 10px rgba(15, 37, 64, 0.6);
+  margin-top: 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #08aaf1 0, #0B346E 69px, #0B346E 100%);
+  padding-bottom: 15px;
+}
+/* line 35, ../sass/style.scss */
+body .j_form_style .j_title {
+  color: #ffffff;
+}
+/* line 38, ../sass/style.scss */
+body .j_form_style .j_form {
+  box-shadow: 0px 0px 5px #0f2540 inset;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px 0 15px 0;
+}
+/* line 43, ../sass/style.scss */
+body .j_form_style .j_form .form-control:focus {
+  border-color: #fff;
+}
+/* line 46, ../sass/style.scss */
+body .j_form_style .j_form label {
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 3px 3px 0 0;
+  background-color: #08aaf1;
+  color: #ffffff;
+}
+/* line 52, ../sass/style.scss */
+body .j_form_style .j_form label:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  width: 0px;
+  height: 0px;
+  border: 38px solid transparent;
+  border-width: 11px 38px 0px 38px;
+  border-top-color: #08aaf1;
+}
+/* line 63, ../sass/style.scss */
+body .j_form_style .j_form label:hover {
+  background-color: #d96c40;
+}
+/* line 65, ../sass/style.scss */
+body .j_form_style .j_form label:hover:before {
+  border-top-color: #d96c40;
+}
+/* line 70, ../sass/style.scss */
+body .j_form_style .j_form label.hover {
+  background-color: #d96c40 !important;
+}
+/* line 72, ../sass/style.scss */
+body .j_form_style .j_form label.hover:before {
+  border-top-color: #d96c40 !important;
+}
+/* line 76, ../sass/style.scss */
+body .j_form_style .j_form input, body .j_form_style .j_form select, body .j_form_style .j_form textarea {
+  box-shadow: 0px 0px 10px 2px rgba(15, 37, 64, 0.3) inset;
+  background-color: #eeeeee;
+}
+/* line 80, ../sass/style.scss */
+body .j_form_style .j_form h3 {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #eeeeee;
+}
+/* line 85, ../sass/style.scss */
+body .j_form_style .j_form .tooltip-inner {
+  background-color: #d96c40;
+}
+/* line 88, ../sass/style.scss */
+body .j_form_style .j_form .tooltip-arrow {
+  border-top-color: #d96c40;
+}
+/* line 92, ../sass/style.scss */
+body .j_form_style .j_form .error input, body .j_form_style .j_form .error textarea {
+  background-color: #fee;
+  border-color: #e99;
+}
+/* line 97, ../sass/style.scss */
+body .j_form_style .j_form .btn_p_r_b {
+  padding: 15px 30px 15px 15px;
+}
+/* line 99, ../sass/style.scss */
+body .j_form_style .j_form .btn_p_r_b button {
+  background-image: linear-gradient(to bottom, #08aaf1 0, #0B346E 100%);
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* line 104, ../sass/style.scss */
+body .j_form_style .j_form .btn_p_r_b button:hover {
+  background-image: none;
+  background-color: #0B346E;
+}
+/* line 113, ../sass/style.scss */
+body .p_l_r {
+  padding: 0;
+}
+@media only screen and (min-width: 768px) {
+  /* line 117, ../sass/style.scss */
+  body .p_r {
+    padding-right: 30px;
+  }
+  /* line 120, ../sass/style.scss */
+  body .p_l {
+    padding-left: 30px;
+  }
+  /* line 123, ../sass/style.scss */
+  body .p_l label:before {
+    left: 30px !important;
+  }
+}
